@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 
 export default function stays() {
   return (
@@ -28,6 +29,9 @@ export default function stays() {
                   this iconic monument right from you window.
                 </p>
                 <p className="text-muted">Last updated 3 mins ago</p>
+                <Link to="/stays/1" className="btn btn-primary">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
@@ -51,6 +55,9 @@ export default function stays() {
                   forests and fresh mountain air.
                 </p>
                 <p className="text-muted">Last updated 10 mins ago</p>
+                <Link to="/stays/2" className="btn btn-primary">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
@@ -76,6 +83,9 @@ export default function stays() {
                   the sun in this exclusive coastel retreat.
                 </p>
                 <p className="text-muted">Last updated in 15 mins ago</p>
+                <Link to="/stays/3" className="btn btn-primary">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
@@ -99,6 +109,9 @@ export default function stays() {
                   comfort, and easy access to dining and entertainment options
                 </p>
                 <p className="text-muted">Last updated 20 mins</p>
+                <Link to="/stays/4" className="btn btn-primary">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
